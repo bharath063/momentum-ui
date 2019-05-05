@@ -30,7 +30,7 @@
 
         .#{$select-label__class} {
           @include flex($jc: space-between);
-
+          width: 100%;
           > i,
           > .#{$icon__class} {
             color: $select__icon--disabled;
